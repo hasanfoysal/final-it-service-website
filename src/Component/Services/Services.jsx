@@ -36,16 +36,17 @@ const Services = () => {
 
    </div>
   </figure>
-  <div className="card-body bg-black text-white">
+ <div className="card-body bg-black text-white ">
   <p className="text-2xl text-orange-500">Developer </p>
-<li>App Developer</li>
-  <li>Game Developer</li>
-  <li>Mobile Developer</li>
-<li>Software Developer</li>
-<li>Full-Stack Web Developer</li>
- <li>Front-End Web Developer</li>
- <li>Back-End Web Developer</li>
- <li>Blockchain Developer</li>
+<a className='text-blue-700' href="/app"><li> App Developer</li></a>
+  <a className='text-blue-700' href="/game"><li>Game Developer</li></a>
+  <a className='text-blue-700' href="/mobile"><li>Mobile Developer</li></a>
+  <a className='text-blue-700' href="/software"><li>Software Developer</li></a>
+  <a className='text-blue-700' href="/full"><li>Full-Stack Web Developer</li></a>
+  <a className='text-blue-700' href="/front"><li>Front-End Web Developer</li></a>
+  <a className='text-blue-700' href="/back"><li>Back-End Web Developer</li></a>
+  <a className='text-blue-700' href="/block"><li>Blockchain Developer</li></a>
+
   </div>
 </div>
 <div className="card bg-base-100 w-64 md:w-80 mx-auto my-3 transition duration-300 ease-in-out hover:scale-110 lg:w-96 shadow-orange-500 shadow-md">
@@ -86,7 +87,7 @@ const Services = () => {
 </div>
 </div></Fade>
 <Fade direction='right'><div className="flex flex-col lg:flex-row md:flex-row justify-between pb-24 lg:max-w-[1300px] mx-auto sm:mt-2 md:mt-4 lg:mt-6">
-            <div className="card bg-base-100 w-64 md:w-80 transition duration-300 ease-in-out hover:scale-110 mx-auto my-3 lg:w-96 shadow-orange-500 shadow-md">
+         <div className="card bg-base-100 w-64 md:w-80 transition duration-300 ease-in-out hover:scale-110 mx-auto my-3 lg:w-96 shadow-orange-500 shadow-md">
             <figure className='bg-black pr-2 pl-4'>
    <div>
    <p className="text-7xl text-orange-500"><MdAdminPanelSettings />
