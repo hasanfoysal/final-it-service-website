@@ -60,10 +60,10 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Programmer:</h2>
-<li>C Programmer</li>
-  <li>Python Programmer</li>
-<li>Java Programmer</li>
-<li>AI/Deep Learning Engineer</li>
+ <a className='text-blue-700' href="/c"><li> C Programmer</li></a>
+ <a className='text-blue-700' href="/python"><li>Python Programmer</li></a>
+ <a className='text-blue-700' href="/java"><li>Java Programmer</li></a>
+ <a className='text-blue-700' href="/ai"><li>AI/Deep Learning Engineer</li></a>
   </div>
 </div>
 
@@ -78,11 +78,12 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Engineer:</h2>
-<li>DevOps Engineer</li>
-  <li>Cloud Architect/Engineer</li>
-<li>Cybersecurity Specialist</li>
-<li>Penetration Tester</li>
- <li>Machine Learning Engineer</li>
+ <a className='text-blue-700' href="/dev"><li>DevOps Engineer</li></a>
+ <a className='text-blue-700' href="/cloud"><li>Cloud Architect/Engineer</li></a>
+ <a className='text-blue-700' href="/cyber"><li>Cybersecurity Specialist</li></a>
+ <a className='text-blue-700' href="/pene"><li>Penetration Tester</li></a>
+ <a className='text-blue-700' href="/machine"><li>Machine Learning Engineer</li></a>
+
   </div>
 </div>
 </div></Fade>
@@ -98,9 +99,9 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Administrator:</h2>
-<li>Network Administrator</li>
-  <li>System Administrator</li>
-<li>Database Administrator</li>
+ <a className='text-blue-700' href="/network"><li>Network Administrator</li></a>
+ <a className='text-blue-700' href="/system"><li>System Administrator</li></a>
+ <a className='text-blue-700' href="/database"><li>Database Administrator</li></a>
   </div>
 </div>
 <div className="card bg-base-100 w-64 md:w-80 mx-auto my-3 transition duration-300 ease-in-out hover:scale-110 lg:w-96 shadow-orange-500 shadow-md">
@@ -114,10 +115,10 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Designer/Creative:</h2>
-<li>Graphic Designer</li>
-  <li>UI/UX Designer</li>
-<li>Video Editor</li>
-<li>Content Writer/Copywriter</li>
+ <a className='text-blue-700' href="/graphic"><li>Graphic Designer</li></a>
+ <a className='text-blue-700' href="/ui"><li>UI/UX Designer</li></a>
+ <a className='text-blue-700' href="/video"><li>Video Editor</li></a>
+ <a className='text-blue-700' href="/content"><li>Content Writer/Copywriter</li></a>
   </div>
 </div>
 
@@ -131,17 +132,16 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Management/Support:</h2>
-<li>Project Manager</li>
-  <li>Product Manager</li>
-<li>HR Manager</li>
-<li>Business Analyst</li>
- <li>IT Consultant</li>
- <li>Client Handler
- </li>
-<li>Technical Support Specialist</li>
- <li>Quality Assurance (QA) Engineer</li>
- <li>SEO/Marketing Officer
- </li>
+ <a className='text-blue-700' href="/project"><li>Project Manager</li></a>
+ <a className='text-blue-700' href="/product"><li>Product Manager</li></a>
+ <a className='text-blue-700' href="/hr"><li>HR Manager</li></a>
+ <a className='text-blue-700' href="/business"><li>Business Analyst</li></a>
+ <a className='text-blue-700' href="/it"><li>IT Consultant</li></a>
+ <a className='text-blue-700' href="/client"><li>Client Handler</li></a>
+ <a className='text-blue-700' href="/tech"><li>Technical Support Specialist</li></a>
+ <a className='text-blue-700' href="/quality"><li>Quality Assurance (QA) Engineer</li></a>
+ <a className='text-blue-700' href="/seo"><li>SEO/Marketing Officer</li></a>
+
   </div>
 </div>
 </div></Fade>
