@@ -6,6 +6,7 @@ import { MdAdminPanelSettings, MdOutlineEngineering } from 'react-icons/md';
 import { GiPencilBrush } from 'react-icons/gi';
 import LetterPullup from '../LetterPullUp';
 import { Fade } from 'react-awesome-reveal';
+import { Link } from 'react-router-dom';
 const Services = () => {
     return (
         <div>
@@ -38,14 +39,14 @@ const Services = () => {
   </figure>
  <div className="card-body bg-black text-white ">
   <p className="text-2xl text-orange-500">Developer </p>
-<a className='text-blue-700' href="/app"><li> App Developer</li></a>
-  <a className='text-blue-700' href="/game"><li>Game Developer</li></a>
-  <a className='text-blue-700' href="/mobile"><li>Mobile Developer</li></a>
-  <a className='text-blue-700' href="/software"><li>Software Developer</li></a>
-  <a className='text-blue-700' href="/full"><li>Full-Stack Web Developer</li></a>
-  <a className='text-blue-700' href="/front"><li>Front-End Web Developer</li></a>
-  <a className='text-blue-700' href="/back"><li>Back-End Web Developer</li></a>
-  <a className='text-blue-700' href="/block"><li>Blockchain Developer</li></a>
+  <Link className='text-blue-700' to='/app'><li> App Developer</li></Link>
+  <Link className='text-blue-700' to='/game'><li> Game Developer</li></Link>
+  <Link className='text-blue-700' to='/mobile'><li> Mobile Developer</li></Link>
+  <Link className='text-blue-700' to='/software'><li> Software Developer</li></Link>
+  <Link className='text-blue-700' to='/full'><li> Full-Stack Web Developer</li></Link>
+  <Link className='text-blue-700' to='/front'><li> Front-End Web Developer</li></Link>
+  <Link className='text-blue-700' to='/back'><li> Back-End Web Developer</li></Link>
+  <Link className='text-blue-700' to='/block'><li>Blockchain Developer</li></Link>
 
   </div>
 </div>
@@ -60,10 +61,10 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Programmer:</h2>
- <a className='text-blue-700' href="/c"><li> C Programmer</li></a>
- <a className='text-blue-700' href="/python"><li>Python Programmer</li></a>
- <a className='text-blue-700' href="/java"><li>Java Programmer</li></a>
- <a className='text-blue-700' href="/ai"><li>AI/Deep Learning Engineer</li></a>
+ <Link className='text-blue-700' to='/c'><li> C Programmer</li></Link>
+ <Link className='text-blue-700' to='/python'><li>Python Programmer</li></Link>
+ <Link className='text-blue-700' to='/java'><li>Java Programmer</li></Link>
+ <Link className='text-blue-700' to='/ai'><li>AI/Deep Learning Engineer</li></Link>
   </div>
 </div>
 
@@ -78,11 +79,11 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Engineer:</h2>
- <a className='text-blue-700' href="/dev"><li>DevOps Engineer</li></a>
- <a className='text-blue-700' href="/cloud"><li>Cloud Architect/Engineer</li></a>
- <a className='text-blue-700' href="/cyber"><li>Cybersecurity Specialist</li></a>
- <a className='text-blue-700' href="/pene"><li>Penetration Tester</li></a>
- <a className='text-blue-700' href="/machine"><li>Machine Learning Engineer</li></a>
+ <Link className='text-blue-700' to='/dev'><li>DevOps Engineer</li></Link>
+ <Link className='text-blue-700' to='/cloud'><li>Cloud Architect/Engineer</li></Link>
+ <Link className='text-blue-700' to='/cyber'><li>Cybersecurity Specialist</li></Link>
+ <Link className='text-blue-700' to='/pene'><li>Penetration Tester</li></Link>
+ <Link className='text-blue-700' to='/machine'><li>Machine Learning Engineer</li></Link>
 
   </div>
 </div>
@@ -99,9 +100,9 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Administrator:</h2>
- <a className='text-blue-700' href="/network"><li>Network Administrator</li></a>
- <a className='text-blue-700' href="/system"><li>System Administrator</li></a>
- <a className='text-blue-700' href="/database"><li>Database Administrator</li></a>
+ <Link className='text-blue-700' to='/network'><li>Network Administrator</li></Link>
+ <Link className='text-blue-700' to='/system'><li>System Administrator</li></Link>
+ <Link className='text-blue-700' to='/database'><li>Database Administrator</li></Link>
   </div>
 </div>
 <div className="card bg-base-100 w-64 md:w-80 mx-auto my-3 transition duration-300 ease-in-out hover:scale-110 lg:w-96 shadow-orange-500 shadow-md">
@@ -115,10 +116,10 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Designer/Creative:</h2>
- <a className='text-blue-700' href="/graphic"><li>Graphic Designer</li></a>
- <a className='text-blue-700' href="/ui"><li>UI/UX Designer</li></a>
- <a className='text-blue-700' href="/video"><li>Video Editor</li></a>
- <a className='text-blue-700' href="/content"><li>Content Writer/Copywriter</li></a>
+ <Link className='text-blue-700' to='/graphic'><li>Graphic Designer</li></Link>
+ <Link className='text-blue-700' to='/ui'><li>UI/UX Designer</li></Link>
+ <Link className='text-blue-700' to='/video'><li>Video Editor</li></Link>
+ <Link className='text-blue-700' to='/content'><li>Content Writer/Copywriter</li></Link>
   </div>
 </div>
 
@@ -132,16 +133,15 @@ const Services = () => {
   </figure>
   <div className="card-body bg-black text-white">
  <h2 className="card-title text-orange-500">Management/Support:</h2>
- <a className='text-blue-700' href="/project"><li>Project Manager</li></a>
- <a className='text-blue-700' href="/product"><li>Product Manager</li></a>
- <a className='text-blue-700' href="/hr"><li>HR Manager</li></a>
- <a className='text-blue-700' href="/business"><li>Business Analyst</li></a>
- <a className='text-blue-700' href="/it"><li>IT Consultant</li></a>
- <a className='text-blue-700' href="/client"><li>Client Handler</li></a>
- <a className='text-blue-700' href="/tech"><li>Technical Support Specialist</li></a>
- <a className='text-blue-700' href="/quality"><li>Quality Assurance (QA) Engineer</li></a>
- <a className='text-blue-700' href="/seo"><li>SEO/Marketing Officer</li></a>
-
+ <Link className='text-blue-700' to='/project'><li>Project Manager</li></Link>
+ <Link className='text-blue-700' to='/product'><li>Product Manager</li></Link>
+ <Link className='text-blue-700' to='/hr'><li>HR Manager</li></Link>
+ <Link className='text-blue-700' to='/business'><li>Business Analyst</li></Link>
+ <Link className='text-blue-700' to='/it'><li>IT Consultant</li></Link>
+ <Link className='text-blue-700' to='/client'><li>Client Handler</li></Link>
+ <Link className='text-blue-700' to='/tech'><li>Technical Support Specialist</li></Link>
+ <Link className='text-blue-700' to='/quality'><li>Quality Assurance (QA) Engineer</li></Link>
+ <Link className='text-blue-700' to='/seo'><li>SEO/Marketing Officer</li></Link>
   </div>
 </div>
 </div></Fade>
