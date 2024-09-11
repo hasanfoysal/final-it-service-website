@@ -7,6 +7,7 @@ import { GiPencilBrush } from 'react-icons/gi';
 import LetterPullup from '../LetterPullUp';
 import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 const Services = () => {
     return (
         <div>
@@ -146,7 +147,7 @@ const Services = () => {
 </div>
 </div></Fade>
 </div>
-
+<Footer></Footer>
         </div>
     );
 };

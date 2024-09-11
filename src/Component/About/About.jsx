@@ -1,6 +1,7 @@
 import LetterPullup from "../LetterPullUp";
 import img from '../../assets/people-2557396_1280.jpg'
 import { Fade } from "react-awesome-reveal";
+import Footer from "../Footer/Footer";
 const About = () => {
     return (
         <div>
@@ -103,6 +104,7 @@ Every project is a new challenge for us, and we embrace each challenge with enth
     <Fade direction="right"><h2 className="lg:px-10 px-3 md:px-6">Our clients are our most valuable assets. We are committed to meeting their needs and expectations and ensuring their satisfaction...</h2></Fade>
 </div>
 </div>
+<Footer></Footer>
         </div>
     );
 };
