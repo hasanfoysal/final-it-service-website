@@ -52,43 +52,43 @@ Every project is a new challenge for us, and we embrace each challenge with enth
 <div className="mt-8 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span> Collaboration and Teamwork<span className="text-orange-600 ">**</span>
     </h1>
-    <Fade direction="left"><h2 className="lg:px-10 px-3 md:px-6"> We believe that success cannot be achieved alone. Cooperation and mutual support among our team members are fundamental aspects of our work culture. We provide a platform for open discussions and idea sharing, where everyone can contribute their opinions and suggestions. By creating a supportive environment, we ensure that our projects are completed successfully.</h2></Fade>
+    <Fade direction="left" delay='o.2'><h2 className="lg:px-10 px-3 md:px-6"> We believe that success cannot be achieved alone. Cooperation and mutual support among our team members are fundamental aspects of our work culture. We provide a platform for open discussions and idea sharing, where everyone can contribute their opinions and suggestions. By creating a supportive environment, we ensure that our projects are completed successfully.</h2></Fade>
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span>Innovation and Creativity<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="right"><h2 className="lg:px-10 px-3 md:px-6"> We promote innovation alongside technological advancement. Our employees are open to new ideas and solutions and are given the opportunity to think creatively. We always follow the latest technologies and trends and encourage creativity in the development of our services and products. Our innovative mindset plays a crucial role in the growth of our business.
+    <Fade direction="right" delay='o.4' ><h2 className="lg:px-10 px-3 md:px-6"> We promote innovation alongside technological advancement. Our employees are open to new ideas and solutions and are given the opportunity to think creatively. We always follow the latest technologies and trends and encourage creativity in the development of our services and products. Our innovative mindset plays a crucial role in the growth of our business.
 
 </h2></Fade>
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"> <span className="text-orange-600 ">**</span>Employee Development and Training<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="left"><h2 className="lg:px-10 px-3 md:px-6"> We are committed to enhancing our employees' skills and professional development. Through various training programs, workshops, and skill development activities, we support our employees in their personal and professional growth. We believe that a well-trained workforce is the foundation of the company's success, and we offer an effective career development path for them.
+    <Fade direction="left " delay='o.6'><h2 className="lg:px-10 px-3 md:px-6"> We are committed to enhancing our employees' skills and professional development. Through various training programs, workshops, and skill development activities, we support our employees in their personal and professional growth. We believe that a well-trained workforce is the foundation of the company's success, and we offer an effective career development path for them.
     </h2></Fade>
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span>Competence and Autonomy<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="right"><h2 className="lg:px-10 px-3 md:px-6">  We provide autonomy to our employees based on their skills and experience. We believe that employees should be able to make independent decisions in their work and act according to their expertise. This boosts their confidence and creates a sense of responsibility towards their work.
+    <Fade direction="right" delay='o.8'><h2 className="lg:px-10 px-3 md:px-6">  We provide autonomy to our employees based on their skills and experience. We believe that employees should be able to make independent decisions in their work and act according to their expertise. This boosts their confidence and creates a sense of responsibility towards their work.
 
 </h2></Fade>
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span>Consistency and Respect<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="left"> <h2 className="lg:px-10 px-3 md:px-6">
+    <Fade direction="left" delay='o.10'> <h2 className="lg:px-10 px-3 md:px-6">
     Consistency and respect are fundamental aspects of our work culture. We create an internal environment where each member's opinions and contributions are valued. We believe that a respectful and supportive environment is essential for employee development and suc</h2></Fade>
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span>Health and Well-being<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="right"> <h2 className="lg:px-10 px-3 md:px-6">  We prioritize the physical and mental well-being of our employees. We take various initiatives to ensure a healthy work environment, such as yoga classes, healthy meals, and mental wellness programs. Through a healthy workforce, we can increase performance and productivity.
+    <Fade direction="right" delay='o.12'> <h2 className="lg:px-10 px-3 md:px-6">  We prioritize the physical and mental well-being of our employees. We take various initiatives to ensure a healthy work environment, such as yoga classes, healthy meals, and mental wellness programs. Through a healthy workforce, we can increase performance and productivity.
     </h2></Fade>
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span>Social Responsibility<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="left"><h2 className="lg:px-10 px-3 md:px-6"> We take our responsibility towards society seriously. Through our social initiatives and charity programs, we try to address various societal issues and contribute to the development of local communities. Our employees are encouraged to actively participate in these initiatives.
+    <Fade direction="left" delay='o.14'><h2 className="lg:px-10 px-3 md:px-6"> We take our responsibility towards society seriously. Through our social initiatives and charity programs, we try to address various societal issues and contribute to the development of local communities. Our employees are encouraged to actively participate in these initiatives.
     </h2></Fade>
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span>Work-Life Balance<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="right"> <h2 className="lg:px-10 px-3 md:px-6">
+    <Fade direction="right" delay='o.16'> <h2 className="lg:px-10 px-3 md:px-6">
    We emphasize maintaining a balance between work and life. We offer flexible schedules and work-from-home options to reduce work pressure on our employees, allowing them to better balance their personal lives and professional responsibilities.
 
 </h2></Fade>
@@ -96,12 +96,12 @@ Every project is a new challenge for us, and we embrace each challenge with enth
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold">
     <span className="text-orange-600 ">**</span>Clients and Partners<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="left"><h2 className="lg:px-10 px-3 md:px-6">
+    <Fade direction="left" delay='o.18'><h2 className="lg:px-10 px-3 md:px-6">
     At LM GROUP, we place deep importance on our relationships with our clients and partners. The foundation of our success lies in our commitment to customer satisfaction and mutual respect and cooperation with our partners. We believe that strong relationships help us improve our services and processes and are essential for our long-term success</h2></Fade>
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span>Clients<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="right"><h2 className="lg:px-10 px-3 md:px-6">Our clients are our most valuable assets. We are committed to meeting their needs and expectations and ensuring their satisfaction...</h2></Fade>
+    <Fade direction="right" delay='o.20'><h2 className="lg:px-10 px-3 md:px-6">Our clients are our most valuable assets. We are committed to meeting their needs and expectations and ensuring their satisfaction...</h2></Fade>
 </div>
 </div>
 <Footer></Footer>

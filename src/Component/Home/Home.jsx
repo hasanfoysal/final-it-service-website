@@ -13,6 +13,7 @@ import blog1 from '../../assets/cuttingedge-ai-technology-businessman-had-260nw-
 import blog2 from '../../assets/Milestone-Success.jpg'
 import blog3 from '../../assets/istockphoto-1346944001-612x612.jpg'
 import { IoIosSend } from "react-icons/io";
+import member from '../../assets/modern-office-composition-with-businessman_23-2147900145.avif'
 
 const Home = () => {
     return (
@@ -42,7 +43,7 @@ const Home = () => {
  <Fade direction="right" delay='.12'><li><span className="font-bold">Goal:</span>Assist clients in achieving success through high-quality technology and employee growth.</li></Fade>
 
 </h3>
-<Link to='/about'><button className="uppercase transition  duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-lg  shadow-black text-emerald-50 px-4 mt-7 py-2 ml-2 rounded-full">more about us</button></Link>
+<Link to='/about'><button className="uppercase transition  duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-lg  shadow-black text-emerald-50 px-4 mt-7 py-2 ml-2 mb-5 rounded-full">more about us</button></Link>
         </div>
            </div>
            </div>
@@ -158,6 +159,69 @@ Our skilled Developer team creates secure and scalable software solutions across
 </div></Fade>
            </div></Link>
            </div>
+           {/* team members */}
+           <div className="bg-white my-7 text-black">
+           <h1 className="text-center bg-orange-600 text-white font-bold my-4  ml-[90px] md:ml-[200px] lg:ml-[800px] justify-center lg:text-3xl btn btn-outline border-0 border-b-4 shadow-md text-lg  shadow-black mt-20">Team Members</h1>
+           <p className="text-blue-990 lg:mx-40 mx-4 text-center">Our IT team is comprised of highly skilled professionals dedicated to ensuring the smooth operation of our technology infrastructure. They possess a diverse range of expertise, including network administration, software development, cybersecurity, and system support. Our team is committed to providing timely and effective solutions to any technical challenges that may arise, enabling us to maintain optimal productivity and efficiency.</p>
+           <Link to='/members'><div className="lg:flex flex-row  lg:max-w-[1400px] mx-auto my-9 justify-center">
+          <div className="card card-compact bg-base-100 text-black w-64 md:w-80 transition duration-300 ease-in-out hover:scale-110 my-3 mx-auto shadow-xl">
+  <figure>
+    <img 
+      src={member}
+      alt="blog1" />
+  </figure>
+  <div className="card-body bg-white text-black">
+    <h2 className="card-title"> Managing Director / Chief Executive Officer (MD / CEO): Mahmud Hasan</h2>
+    <p>I, Mahmud Hasan, am the founder and Managing Director of LM GROUP, leading all operations and decision-making within the company.  
+Under my vision and leadership, LM GROUP has achieved remarkable success.  
+The company continuously provides new innovative services, and I always inspire the team to ensure customer satisfaction.  
+Under my experience and leadership, we are consistently achieving growth, and I am playing a leading role in realizing the company's vision by seeking out new opportunities for continuous improvement.
+
+</p>
+  
+  </div>
+</div>
+<div className="card card-compact bg-base-100  text-black w-64 md:w-80 transition duration-300 ease-in-out hover:scale-110 mx-auto my-3 shadow-xl">
+  <figure>
+    <img
+      src={member}
+      alt="blog2" />
+  </figure>
+  <div className="card-body bg-white text-black">
+    <h2 className="card-title">Chief Technology Officer (CTO): Jawad Ullah Azad</h2>
+    <p>The CTO is the head of our technology team, responsible for managing technology and implementing new innovative technologies.  
+Under his skilled leadership, we always utilize modern technology.
+</p>
+  </div>
+</div>
+<div className="card card-compact bg-base-100  text-black w-64 md:w-80 transition duration-300 ease-in-out hover:scale-110 mx-auto my-3 shadow-xl">
+  <figure>
+    <img
+      src={member}
+      alt="blog3" />
+  </figure>
+  <div className="card-body bg-white text-black">
+    <h2 className="card-title">Chief Marketing Officer (CMO): BDS Bulbul Ahmed</h2>
+    <p>The CMO oversees our marketing strategy and customer relations.  
+Under his leadership, we have successfully delivered our services and products to customers.
+
+    </p>
+  </div>
+</div>
+<div className="card card-compact bg-base-100  text-black w-64 md:w-80 transition duration-300 ease-in-out hover:scale-110 mx-auto my-3 shadow-xl">
+  <figure>
+    <img
+      src={member}
+      alt="blog2" />
+  </figure>
+  <div className="card-body bg-white text-black">
+    <h2 className="card-title">Other Employees:</h2>
+    <p>Recently, LM GROUP celebrated the success of our previous projects. Our team takes great pride in the services and solutions we have provided, which have significantly contributed to client satisfaction. Notably, we have achieved remarkable success in our cybersecurity services and software development.</p>
+  </div>
+</div>
+           </div>
+           </Link>
+           </div>
            {/* contact */}
            <div className="bg-zinc-700 min-h-svh text-white pt-20" >
            <h1 className="text-center bg-orange-600 text-white font-bold my-4  ml-[80px] md:ml-[200px] lg:ml-[800px] justify-center text-3xl btn btn-outline border-0 border-b-4 shadow-md   shadow-black mt-20">Contact Us</h1>
@@ -182,7 +246,7 @@ Our skilled Developer team creates secure and scalable software solutions across
 <div  className="card bg-zinc-700 text-white w-64 md:w-80 mx-auto my-20 lg:w-[500px] border border-orange-600  shadow-orange-600 shadow-sm">
   <div className="card-body bg-black text-white">
   <form >
-  <BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex items-center w-48 lg:w-96 text-black gap-2">
+  <BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex items-center w-48 lg:w-96 bg-white text-black gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -193,7 +257,7 @@ Our skilled Developer team creates secure and scalable software solutions across
   </svg>
   <input type="text" name="to_name" className="grow" placeholder="Username" />
 </label></BoxReveal>
-<BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center mt-2 text-black gap-2">
+<BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center mt-2 bg-white text-black gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -207,7 +271,7 @@ Our skilled Developer team creates secure and scalable software solutions across
   <input type="text" name="from_email" className="grow" placeholder="Email" />
 </label></BoxReveal>
 
-<BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center pt-6 py-24  text-black mt-2 gap-2">
+<BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center pt-6 py-24 bg-white  text-black mt-2 gap-2">
 <IoIosSend />
   <input  type="text" name="message" className="grow " placeholder="Enter your message" />
 </label></BoxReveal>
@@ -219,6 +283,7 @@ Our skilled Developer team creates secure and scalable software solutions across
 </div>
 </div>
 </div>
+
           <Footer></Footer>
         </div>
     );

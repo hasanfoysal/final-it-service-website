@@ -46,7 +46,7 @@ const Contact = () => {
 <div  className="card bg-zinc-700 text-white w-64 md:w-80 mx-auto my-20 lg:w-[500px] border border-orange-600  shadow-orange-600 shadow-sm">
   <div className="card-body bg-black text-white">
   <form >
-  <BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex items-center w-48 lg:w-96 text-black gap-2">
+  <BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex items-center w-48 bg-white lg:w-96 text-black gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -57,7 +57,7 @@ const Contact = () => {
   </svg>
   <input type="text" name="to_name" className="grow" placeholder="Username" />
 </label></BoxReveal>
-<BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center mt-2 text-black gap-2">
+<BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center mt-2 bg-white text-black gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 16 16"
@@ -71,7 +71,7 @@ const Contact = () => {
   <input type="text" name="from_email" className="grow" placeholder="Email" />
 </label></BoxReveal>
 
-<BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center pt-6 py-24  text-black mt-2 gap-2">
+<BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center pt-6 py-24 bg-white text-black mt-2 gap-2">
 <IoIosSend />
   <input  type="text" name="message" className="grow " placeholder="Enter your message" />
 </label></BoxReveal>

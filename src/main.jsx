@@ -46,6 +46,7 @@ import Quality from './Component/Quality/Quality.jsx';
 import Marketing from './Component/Marketing/Marketing.jsx';
 import About from './Component/About/About.jsx';
 import Blog from './Component/Blog/Blog.jsx';
+import Members from './Component/Members/Members.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -203,6 +204,10 @@ const router = createBrowserRouter([
       {
         path:'/blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '/members',
+        element: <Members></Members>
       }
    
    
