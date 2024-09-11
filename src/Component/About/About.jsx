@@ -19,7 +19,7 @@ const About = () => {
   </div>
  
 </div>
-<div className="my-16">
+<div className="my-16 bg-white text-black">
 <h3 className="text-2xl md:text-4xl pl-2 pt-6 lg:text-6xl text-blue-950 text-center font-semibold"><span className="text-orange-600">Introduction</span>To The Best <br />IT Service Company!</h3>
 <h1 className="pl-2 text-xl font-semibold py-4 mt-4 lg:text-2xl text-center pr-1">LM GROUP: A Leading Technology Company</h1>
 <div className="lg:flex flex-row gap-5 mx-10 justify-center">
