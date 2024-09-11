@@ -70,9 +70,9 @@ const Contact = () => {
   <input type="text" name="from_email" className="grow" placeholder="Email" />
 </label>
 
-<label className="input input-bordered flex w-48 lg:w-96 items-center text-black mt-2 gap-2">
+<label className="input input-bordered flex w-48 lg:w-96 items-center pt-6 py-24  text-black mt-2 gap-2">
 <IoIosSend />
-  <input type="text" name="message" className="grow" placeholder="Enter your message" />
+  <input  type="text" name="message" className="grow " placeholder="Enter your message" />
 </label>
 
 <input className="btn btn-outline mt-4 border-orange-600 text-white shadow-md  shadow-orange-600  hover:bg-orange-600 hover:text-white" type="submit" value="Send" />

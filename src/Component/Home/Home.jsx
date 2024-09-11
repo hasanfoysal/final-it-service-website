@@ -9,6 +9,9 @@ import Footer from '../Footer/Footer'
 import lottie from '../../../public/ijtlV4SM1y.json'
 import Lottie from "lottie-react";
 import { Fade } from "react-awesome-reveal";
+import blog1 from '../../assets/cuttingedge-ai-technology-businessman-had-260nw-1456589462.webp'
+import blog2 from '../../assets/Milestone-Success.jpg'
+import blog3 from '../../assets/istockphoto-1346944001-612x612.jpg'
 
 const Home = () => {
     return (
@@ -111,6 +114,48 @@ Our skilled Developer team creates secure and scalable software solutions across
   </div>
 </div>
 
+           </div>
+           {/* blog */}
+           <div className="bg-white text-black">
+           <h1 className="text-center bg-orange-600 text-white font-bold my-4  ml-[90px] md:ml-[200px] lg:ml-[800px] justify-center text-3xl btn btn-outline border-0 border-b-4 shadow-md   shadow-black mt-20">Our Blogs</h1>
+           <h1 className="text-2xl md:text-4xl pl-2 ml-2 pt-2 lg:text-5xl text-blue-950 text-center font-semibold"><span className="text-orange-600">Blog</span>& News From Us</h1>
+           <Link to='/blog'><div className="lg:flex flex-row gap-7 lg:max-w-[1200px] mx-auto my-9 justify-center">
+          <Fade direction="up"> <div className="card card-compact bg-base-100 text-black w-64 md:w-80 transition duration-300 ease-in-out hover:scale-110 my-3 mx-auto shadow-xl">
+  <figure>
+    <img
+      src={blog1}
+      alt="blog1" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title"> Launch of a New Project:</h2>
+    <p>We are delighted to announce that LM GROUP has recently launched a new project that will deliver cutting-edge technological solutions for our clients. This initiative is set to enhance the efficiency and integration of our clients' business operations.</p>
+  
+  </div>
+</div></Fade>
+<Fade direction="down"><div className="card card-compact bg-base-100  text-black w-64 md:w-80 transition duration-300 ease-in-out hover:scale-110 mx-auto my-3 shadow-xl">
+  <figure>
+    <img
+      src={blog2}
+      alt="blog2" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title">Milestone of Success:</h2>
+    <p>Recently, LM GROUP celebrated the success of our previous projects. Our team takes great pride in the services and solutions we have provided, which have significantly contributed to client satisfaction. Notably, we have achieved remarkable success in our cybersecurity services and software development.</p>
+  </div>
+</div></Fade>
+<Fade direction="up"><div className="card card-compact bg-base-100  text-black w-64 md:w-80 transition duration-300 ease-in-out hover:scale-110 mx-auto my-3 shadow-xl">
+  <figure>
+    <img
+      src={blog3}
+      alt="blog3" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title">New Team Members:</h2>
+    <p>We welcome our new team members, who will contribute to further improving our skills and service quality. Among them are programmers, designers, and project managers who will bring fresh perspectives and expertise to our projects.
+    </p>
+  </div>
+</div></Fade>
+           </div></Link>
            </div>
           <Footer></Footer>
         </div>
