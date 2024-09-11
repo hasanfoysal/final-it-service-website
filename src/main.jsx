@@ -44,6 +44,7 @@ import Client from './Component/Client/Client.jsx';
 import Technical from './Component/Technical/Technical.jsx';
 import Quality from './Component/Quality/Quality.jsx';
 import Marketing from './Component/Marketing/Marketing.jsx';
+import About from './Component/About/About.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -194,6 +195,10 @@ const router = createBrowserRouter([
         path: '/seo',
         element:<Marketing></Marketing>
       },
+      {
+        path: '/about',
+        element: <About></About>
+      }
    
    
 

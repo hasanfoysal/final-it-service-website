@@ -1,14 +1,13 @@
 import Lottie from 'lottie-react';
 import lottie from '../../../public/xfOgef2BEy (1).json'
-import LetterPullup from '../LetterPullUp';
 const Contact = () => {
     return (
         <div className='sm:bg-white'>
-             <h1 className="text-center text-black font-bold my-4  ml-[70px] md:ml-[200px] lg:ml-[700px] justify-center text-3xl btn btn-outline border-0 border-b-4 shadow-md   shadow-black mt-24">Contact Us</h1>
+             <h1 className="text-center bg-orange-600 text-white font-bold my-4  ml-[70px] md:ml-[200px] lg:ml-[700px] justify-center text-3xl btn btn-outline border-0 border-b-4 shadow-md   shadow-black mt-24">About</h1>
              <div>
              <div className="hero">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <Lottie animationData={lottie}></Lottie>
+    <Lottie animationData={lottie} ></Lottie>
     <div>
       
       <h1 className="text-xl font-bold">If your business needs reliable and innovative IT solutions, LM GROUP can be your right partner. We are ready and committed to meet all your technical needs.</h1>

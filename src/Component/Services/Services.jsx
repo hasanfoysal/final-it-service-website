@@ -81,7 +81,7 @@ const Services = () => {
  <h2 className="card-title text-orange-500">Engineer:</h2>
  <Link className='text-blue-700' to='/dev'><li>DevOps Engineer</li></Link>
  <Link className='text-blue-700' to='/cloud'><li>Cloud Architect/Engineer</li></Link>
- <Link className='text-blue-700' to='/cyber'><li>Cybersecurity Specialist</li></Link>
+ {/* <Link className='text-blue-700' to='/cyber'><li>Cybersecurity Specialist</li></Link> */}
  <Link className='text-blue-700' to='/pene'><li>Penetration Tester</li></Link>
  <Link className='text-blue-700' to='/machine'><li>Machine Learning Engineer</li></Link>
 
