@@ -18,7 +18,10 @@ const Cloud = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You Cloud Architect/Engineer!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       A Cloud Architect/Engineer is a technical professional responsible for designing, implementing, and managing cloud computing infrastructure. They work closely with businesses to understand their needs and develop cloud-based solutions that are scalable, reliable, and cost-effective. They have a deep understanding of cloud platforms like AWS, Azure, and GCP, and are skilled in various technologies such as virtualization, networking, and security. </p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

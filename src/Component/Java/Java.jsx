@@ -17,7 +17,10 @@ const Java = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You Java Programming!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       Java programming is a versatile language used to create various applications, from websites and software to mobile apps and games. It's known for its platform independence, meaning Java code can run on different operating systems. Java uses an object-oriented approach, making it easier to manage complex projects. It's also widely used in enterprise development and has a large community and extensive libraries.</p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

@@ -18,7 +18,10 @@ const HrManager = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You HR Manager!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       An HR Manager is a professional responsible for overseeing all human resource activities within an organization. They handle tasks such as recruitment, employee relations, performance management, compensation and benefits, and ensuring compliance with labor laws. HR Managers play a crucial role in creating a positive and productive work environment for employees..</p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

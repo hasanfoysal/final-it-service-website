@@ -18,7 +18,10 @@ const Client = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You Client Handler!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       A client handler is a software component responsible for managing interactions with clients in a network or distributed system. It typically handles incoming client requests, processes them, and sends appropriate responses back to the client. Client handlers can be implemented in various ways, depending on the specific application and programming language. They may use threads, processes, or asynchronous programming techniques to handle multiple client requests concurrently. Effective client handlers are crucial for ensuring efficient and reliable communication between clients and servers.</p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

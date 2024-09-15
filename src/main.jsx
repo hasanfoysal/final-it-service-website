@@ -47,6 +47,9 @@ import Marketing from './Component/Marketing/Marketing.jsx';
 import About from './Component/About/About.jsx';
 import Blog from './Component/Blog/Blog.jsx';
 import Members from './Component/Members/Members.jsx';
+import Terms from './Component/Terms/Terms.jsx';
+import Private from './Component/Private/Private.jsx';
+import FormFillUp from './Component/FormFillUp/FormFillUp.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -208,6 +211,18 @@ const router = createBrowserRouter([
       {
         path: '/members',
         element: <Members></Members>
+      },
+      {
+        path: '/terms',
+        element: <Terms></Terms>
+      },
+      {
+        path: '/private',
+        element: <Private></Private>
+      },
+      {
+        path: '/form',
+        element:<FormFillUp></FormFillUp>
       }
    
    

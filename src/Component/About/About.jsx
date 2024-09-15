@@ -88,10 +88,10 @@ Every project is a new challenge for us, and we embrace each challenge with enth
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span>Work-Life Balance<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="right" delay='o.16'> <h2 className="lg:px-10 px-3 md:px-6">
+    <h2 className="lg:px-10 px-3 md:px-6">
    We emphasize maintaining a balance between work and life. We offer flexible schedules and work-from-home options to reduce work pressure on our employees, allowing them to better balance their personal lives and professional responsibilities.
 
-</h2></Fade>
+</h2>
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold">
@@ -101,7 +101,7 @@ Every project is a new challenge for us, and we embrace each challenge with enth
 </div>
 <div  className="mt-3 pl-9">
     <h1 className="text-xl font-semibold"><span className="text-orange-600 ">**</span>Clients<span className="text-orange-600 ">**</span></h1>
-    <Fade direction="right" delay='o.20'><h2 className="lg:px-10 px-3 md:px-6">Our clients are our most valuable assets. We are committed to meeting their needs and expectations and ensuring their satisfaction...</h2></Fade>
+    <h2 className="lg:px-10 px-3 md:px-6">Our clients are our most valuable assets. We are committed to meeting their needs and expectations and ensuring their satisfaction...</h2>
 </div>
 </div>
 <Footer></Footer>

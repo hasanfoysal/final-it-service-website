@@ -68,7 +68,7 @@ const Contact = () => {
     <path
       d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
   </svg>
-  <input type="text" name="from_email" className="grow" placeholder="Email" />
+  <input type="email" name="from_email" className="grow" placeholder="Email" />
 </label></BoxReveal>
 
 <BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center pt-6 py-24 bg-white text-black mt-2 gap-2">

@@ -17,7 +17,10 @@ const MachineL = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You Machine Learning Engineer!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       A machine learning engineer is a data scientist who specializes in developing and implementing machine learning algorithms. They work with large datasets to train models that can make predictions or decisions without being explicitly programmed. Their tasks include data cleaning, feature engineering, model selection, and evaluation. Machine learning engineers play a crucial role in various fields, such as finance, healthcare, and marketing. </p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

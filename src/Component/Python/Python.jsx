@@ -18,7 +18,10 @@ const Python = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You Python Programming!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       Python is a high-level, general-purpose programming language known for its readability and ease of use. It has a large standard library and is widely used in various domains, including web development, data analysis, machine learning, and scientific computing. Python's simple syntax and emphasis on code readability make it a popular choice for both beginners and experienced programmers. </p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

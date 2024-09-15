@@ -21,8 +21,8 @@ const Members = () => {
   </div>
  
 </div>
-<div className="bg-slate-600 text-black my-8">
-           <h1 className="lg:text-4xl text-2xl text-center p-3 bg-stone-400 text-slate-600 font-bold">Meet Our Team Members</h1>
+<div className="bg-slate-600 w-full text-black my-8 ">
+           <h1 className="lg:text-4xl text-2xl text-center p-3 bg-stone-400 text-white font-bold">Meet Our Team Members</h1>
            <div className="flex flex-col lg:flex-row md:flex-row justify-between  sm:mt-8 md:mt-10 lg:mt-12">
             {/* main div */}
             <div>

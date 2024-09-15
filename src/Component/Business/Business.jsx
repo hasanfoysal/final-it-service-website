@@ -18,7 +18,10 @@ const Business = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You Business Analyst!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       A Business Analyst (BA) is a professional who bridges the gap between business needs and technical solutions. They work with stakeholders to understand their requirements and translate them into actionable specifications for development teams. BAs often conduct research, analyze data, and create process models to ensure that IT solutions align with business objectives. They play a crucial role in ensuring successful project outcomes and delivering value to the organization.</p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

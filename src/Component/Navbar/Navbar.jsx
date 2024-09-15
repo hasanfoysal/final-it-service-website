@@ -1,6 +1,6 @@
 import {  NavLink } from "react-router-dom";
 
-
+import img from '../../assets/WhatsApp Image 2024-09-15 at 12.05.06_31ee0d99.jpg'
 
 const Navbar = () => {
   const nav = <>
@@ -15,7 +15,7 @@ const Navbar = () => {
  
     return (
         <div>
-            <div className="navbar text-cyan-50 absolute bg-opacity-30 z-10 bg-black ">
+            <div className="navbar text-cyan-50 absolute bg-opacity-50 z-10 bg-black ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,7 +38,7 @@ const Navbar = () => {
         {nav}
       </ul>
     </div>
-    <h1 className="btn btn-ghost lg:text-3xl text-2xl  lg:pl-24 text-white font-bold">LM <span className="text-4xl text-orange-600 font-extrabold">GROUP.</span></h1>
+    <img className="w-52 h-12 lg:pl-28 md:pl-16 rounded-xl font-bold" src={img} alt="" />
   </div>
   
   <div className="navbar-end lg:pr-24">

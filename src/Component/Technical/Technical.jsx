@@ -18,7 +18,10 @@ const Technical = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You Technical Support Specialist!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       A Technical Support Specialist is a professional who provides assistance to customers or users experiencing technical difficulties with software, hardware, or networks. They troubleshoot problems, identify solutions, and guide users through the resolution process. They often work remotely, interacting with customers via phone, email, or chat. Technical Support Specialists require strong problem-solving skills, excellent communication abilities, and a deep understanding of technology.</p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

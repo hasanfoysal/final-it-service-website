@@ -17,7 +17,10 @@ const Ai = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You AI/Deep Learning Engineer!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       An AI/Deep Learning Engineer is a specialist who develops and implements artificial intelligence (AI) and deep learning algorithms. They work on tasks such as data analysis, model development, and algorithm optimization. These engineers use programming languages like Python and TensorFlow to build AI systems that can perform tasks like image recognition, natural language processing, and predictive analytics. </p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

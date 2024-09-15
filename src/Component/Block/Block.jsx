@@ -17,7 +17,10 @@ const Block = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You  Blockchain development!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       Blockchain development involves creating applications that leverage blockchain technology. This technology uses a decentralized network to record and verify transactions securely. Developers utilize blockchain platforms like Ethereum, Bitcoin, and Hyperledger Fabric to build decentralized applications (DApps). These DApps can be used for various purposes, such as cryptocurrency, supply chain management, and voting systems. Blockchain development requires a strong understanding of cryptography, distributed systems, and programming languages like Solidity and JavaScript. </p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>

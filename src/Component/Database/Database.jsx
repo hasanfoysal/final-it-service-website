@@ -17,7 +17,10 @@ const Database = () => {
       <Fade direction='up' delay='o.4'><h1 className="lg:text-5xl text-3xl font-bold">We Offer You Database Administrator!</h1></Fade>
       <Fade direction='up' delay='o.6'><p className="py-6 ">
       A Database Administrator (DBA) is responsible for managing and maintaining databases. They ensure data integrity, security, and accessibility. DBAs often work with database management systems (DBMS) like MySQL, Oracle, or SQL Server. They design database structures, implement data policies, and troubleshoot database issues. DBAs play a crucial role in organizations that rely on data-driven decision making.</p></Fade>
-     <Fade direction='up' delay='o.8'><Link to='/contact'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">contact us</button></Link></Fade>
+      <Fade direction='up' delay='o.6'><p className="py-6 text-xl">
+       Please fill the form by clicking the form button below to reach the service of your choice.
+      </p></Fade>
+     <Fade direction='up' delay='o.8'><Link to='/form'> <button className="uppercase transition duration-300 ease-in-out hover:scale-110 bg-orange-600 shadow-md shadow-white text-emerald-50 px-4 mt-2 py-2 rounded-full">Form</button></Link></Fade>
     </div>
     </div>
   </div>
