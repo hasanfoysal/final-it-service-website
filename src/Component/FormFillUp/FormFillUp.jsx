@@ -1,6 +1,7 @@
 import LetterPullup from "../LetterPullUp";
 import img from '../../assets/information-word-represents-wordcloud-support-and-answer.jpg'
 import BoxReveal from "../../BoxReveal/BoxReveal";
+import { option } from "framer-motion/client";
 
 
 const FormFillUp = () => {
@@ -39,7 +40,17 @@ const FormFillUp = () => {
 </label></BoxReveal>
 
 <BoxReveal boxColor={"#FFA600"} duration={0.7}>Project Budget<label className="input input-bordered flex items-center w-48 bg-white lg:w-96 text-black gap-2">
-  <input type="text"  className="grow" placeholder=" enter your project budget" />
+  <input type="number"  className="grow"  placeholder=" enter your project budget" /> <select name="" id=""><option value="USD">USD</option>
+  <option value="BDT">BDT</option>
+  <option value="PKR">PKR</option>
+  <option value="IND">IND</option>
+  <option value="GBP">GBP</option>
+  <option value="QAR">QAR</option>
+  <option value="SAR">SAR</option>
+  <option value="GBP">GBP</option>
+  <option value="KWD">KWD</option>
+  <option value="MYR">MYR</option>
+  </select>
 </label></BoxReveal>
 <BoxReveal boxColor={"#FFA600"} duration={0.7}>Project Deadline<label className="input input-bordered flex items-center w-48 bg-white lg:w-96 text-black gap-2">
   <input type="text"  className="grow" placeholder=" enter your project deadline" />
