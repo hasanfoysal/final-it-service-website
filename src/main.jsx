@@ -50,6 +50,8 @@ import Members from './Component/Members/Members.jsx';
 import Terms from './Component/Terms/Terms.jsx';
 import Private from './Component/Private/Private.jsx';
 import FormFillUp from './Component/FormFillUp/FormFillUp.jsx';
+import Login from './Component/Login/Login.jsx';
+import SignUp from './Component/SignUp/SignUp.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -223,6 +225,14 @@ const router = createBrowserRouter([
       {
         path: '/form',
         element:<FormFillUp></FormFillUp>
+      },
+      {
+        path:'/login',
+        element: <Login></Login>
+      },
+      {
+        path: '/signUp',
+        element: <SignUp></SignUp>
       }
    
    

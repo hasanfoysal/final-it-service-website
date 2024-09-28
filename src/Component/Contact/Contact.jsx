@@ -33,12 +33,16 @@ const Contact = () => {
   <BoxReveal boxColor={"#FFA600"} duration={0.7}><li className="lg:text-xl"><span className="text-slate-100 lg:text-lg">phone:</span>+880 1820903619</li></BoxReveal>
   <BoxReveal boxColor={"#FFA600"} duration={0.7}><li className="lg:text-xl sm:text-lg "><span className="text-slate-100 lg:text-lg">Email:</span>lmgroup442@gmail.com</li></BoxReveal>
   <BoxReveal boxColor={"#FFA600"} duration={0.7}><li className="lg:text-xl"><span className="text-slate-100 lg:text-lg">Location:</span> Dhaka,Bangladesh</li></BoxReveal>
-  <BoxReveal boxColor={"#FFA600"} duration={0.7}><div className='lg:mt-6 mt-3 md:mt-4 flex space-x-4'>
-      <a href="" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="" height="30" width="40" /></a>
-      <a href="" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=100009256108068&mibextid=ZbWKwL" height="30" width="40" /></a>
-      <a href="" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="" height="30" width="40" /></a>
-      <a href="" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="" height="30" width="40" /></a>
-      </div></BoxReveal>
+  <BoxReveal boxColor={"#FFA600"} duration={0.7}>
+
+  <div className='lg:mt-6 mt-3 md:mt-4 flex space-x-4'>
+      <a href="https://www.linkedin.com/in/lm-group04/" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="" height="30" width="40" /></a>
+      <a href="https://www.facebook.com/profile.php?id=61564501409288" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=100009256108068&mibextid=ZbWKwL" height="30" width="40" /></a>
+      <a href="https://www.instagram.com/lmgroup4/" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="" height="30" width="40" /></a>
+      <a href="https://www.pinterest.com/lmgroup04/" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/pinterest.svg" alt="" height="30" width="40" /></a>
+      <a href="https://x.com/lmgroup04" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="" height="30" width="40" /></a>
+      </div>
+  </BoxReveal>
 
 
   </div>
