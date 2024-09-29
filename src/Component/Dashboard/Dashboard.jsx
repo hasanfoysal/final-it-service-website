@@ -8,7 +8,7 @@ const Dashboard = () => {
     return (
         <div className="flex pt-24 lg:p-32">
         
-            <div className="lg:w-64 md:w-52 min-h-screen w-44 border border-black bg-orange-400"> <ul className="menu">
+            <div className="lg:w-64 md:w-52 min-h-screen w-44 border border-black bg-orange-400 text-black"> <ul className="menu">
                 
                    
                     
