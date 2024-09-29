@@ -52,6 +52,12 @@ import Private from './Component/Private/Private.jsx';
 import FormFillUp from './Component/FormFillUp/FormFillUp.jsx';
 import Login from './Component/Login/Login.jsx';
 import SignUp from './Component/SignUp/SignUp.jsx';
+import Dashboard from '../src/Component/Dashboard/Dashboard.jsx'
+import Dashboard2 from './Component/Dashboard/Dashboard2.jsx';
+import Applications from './Component/Dashboard/Applications.jsx';
+import Candidate from './Component/Dashboard/Candidate.jsx';
+import Admins from './Component/Dashboard/Admins.jsx';
+import News from './Component/Dashboard/News.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -233,6 +239,32 @@ const router = createBrowserRouter([
       {
         path: '/signUp',
         element: <SignUp></SignUp>
+      },
+      {
+        path: '/dashboard',
+        element: <Dashboard></Dashboard>,
+        children:[
+          {
+            path:'dashboard2',
+            element: <Dashboard2></Dashboard2>
+          },
+          {
+            path: 'applications',
+            element: <Applications></Applications>
+          },
+          {
+            path: 'candidate',
+            element: <Candidate></Candidate>
+          },
+          {
+            path: 'admins',
+            element: <Admins></Admins>
+          },
+          {
+            path: 'news',
+            element: <News></News>
+          }
+        ]
       }
    
    

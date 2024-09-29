@@ -3,13 +3,14 @@
 import login from '../../../public/login.json';
 
 import { Link } from 'react-router-dom';
-
+import img from '../../assets/login-button-png-4.jpg'
 
 
 
 
 
 import Lottie from 'lottie-react';
+import LetterPullup from '../LetterPullUp';
 
 
 
@@ -18,7 +19,20 @@ const Login = () => {
   
     return (
         <div >
-
+  <div className="hero" style={{backgroundImage: `url(${img})`}}>
+  <div className="hero-overlay bg-opacity-60 h-[400px] shadow-2xl "><img className='opacity-50 ' /></div>
+  <div className="hero-content text-center text-neutral-content">
+    <div>
+    
+      <div> 
+      <LetterPullup className='lg:text-7xl text-4xl pb-4 md:text-4xl  text-white font-bold' words={""} delay={0.1} />
+        </div>
+    
+      
+    </div>
+  </div>
+ 
+</div>
         
         <div className="hero min-h-screen bg-base-200" >
         <div className="hero-content flex-col lg:flex-row-reverse">

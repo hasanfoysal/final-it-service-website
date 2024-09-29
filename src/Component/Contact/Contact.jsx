@@ -3,8 +3,41 @@ import BoxReveal from '../../BoxReveal/BoxReveal'
 import img from '../../assets/contact-us-6933645_1280.jpg'
 import { IoIosSend } from "react-icons/io";
 import LetterPullup from '../LetterPullUp';
+import Swal from 'sweetalert2';
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_bl5akzk', 'template_6rntt4l', form.current, {
+        publicKey: 'Ia5ZLSh7fNAdH5kwx',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Message sent",
+            showConfirmButton: false,
+            timer: 1500
+          });
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+          });
+        },
+      );
+  };
   return (
     <div>
             <div className="hero" style={{backgroundImage: `url(${img})`}}>
@@ -35,7 +68,7 @@ const Contact = () => {
   <BoxReveal boxColor={"#FFA600"} duration={0.7}><li className="lg:text-xl"><span className="text-slate-100 lg:text-lg">Location:</span> Dhaka,Bangladesh</li></BoxReveal>
   <BoxReveal boxColor={"#FFA600"} duration={0.7}>
 
-  <div className='lg:mt-6 mt-3 md:mt-4 flex space-x-4'>
+     <div className='lg:mt-6 mt-3 md:mt-4 flex space-x-4'>
       <a href="https://www.linkedin.com/in/lm-group04/" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="" height="30" width="40" /></a>
       <a href="https://www.facebook.com/profile.php?id=61564501409288" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=100009256108068&mibextid=ZbWKwL" height="30" width="40" /></a>
       <a href="https://www.instagram.com/lmgroup4/" target="blank"><img className='w-7 h-7' align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="" height="30" width="40" /></a>
@@ -49,7 +82,7 @@ const Contact = () => {
 </div>
 <div  className="card bg-zinc-700 text-white w-64 md:w-80 mx-auto my-20 lg:w-[500px] border border-orange-600  shadow-orange-600 shadow-sm">
   <div className="card-body bg-black text-white">
-  <form >
+  <form ref={form} onSubmit={sendEmail}>
   <BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex items-center w-48 bg-white lg:w-96 text-black gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +92,7 @@ const Contact = () => {
     <path
       d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12.735 14c.618 0 1.093-.561.872-1.139a6.002 6.002 0 0 0-11.215 0c-.22.578.254 1.139.872 1.139h9.47Z" />
   </svg>
-  <input type="text" name="to_name" className="grow" placeholder="Username" />
+  <input type="text"  name="to_name" className="grow" placeholder="Username" />
 </label></BoxReveal>
 <BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center mt-2 bg-white text-black gap-2">
   <svg
@@ -72,7 +105,7 @@ const Contact = () => {
     <path
       d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
   </svg>
-  <input type="email" name="from_email" className="grow" placeholder="Email" />
+  <input type="email" name="from_name" className="grow" placeholder="Email" />
 </label></BoxReveal>
 
 <BoxReveal boxColor={"#FFA600"} duration={0.7}><label className="input input-bordered flex w-48 lg:w-96 items-center pt-6 py-24 bg-white text-black mt-2 gap-2">

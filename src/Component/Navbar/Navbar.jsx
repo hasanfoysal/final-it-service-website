@@ -9,7 +9,8 @@ const Navbar = () => {
    <NavLink to='/services'><li  className="text-l hover:text-orange-600 lg:text-white"><a>Services</a></li></NavLink>
    <NavLink to='/blog'><li  className="text-l hover:text-orange-600  lg:text-white"><a>Blog</a></li></NavLink>
    <NavLink to='/members'><li  className="text-l hover:text-orange-600 lg:text-white"><a>Members</a></li></NavLink>  
-   <NavLink to='/contact'><li  className="text-l hover:text-orange-600 lg:text-white"><a>Contact</a></li></NavLink>  
+   <NavLink to='/contact'><li  className="text-l hover:text-orange-600 lg:text-white"><a>Contact</a></li></NavLink>
+   <NavLink to='/dashboard'><li  className="text-l hover:text-orange-600 lg:text-white"><a>Dashboard</a></li></NavLink>    
    <Link to='/login'><h1 className="bg-orange-600 shadow-sm   shadow-white hover:text-black hover:shadow-black  p-2 px-3 text-white font-semibold rounded-full">Login</h1></Link>
 
   
